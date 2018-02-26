@@ -1,0 +1,37 @@
+body {
+    background-color: red;
+    color: whitesmoke;
+    font-family: cursive;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav{
+    border: 10px dashed blue;
+}
+
+ul{
+    background-color: purple;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: column;
+}
+article{
+    width: 75%;
+    background-color: yellow;
+    //float: left;
+}
+aside{
+    width: 25%;
+    background-color: burlywood;
+    //float: left;
+}
+section{
+    width: 100%;
+    background-color: chocolate;
+}
