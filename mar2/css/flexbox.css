@@ -1,0 +1,39 @@
+html {
+  background-color: red;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  background-color: magenta;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: mediumaquamarine;
+  margin: 5px;
+}
+
+div:nth-child(4) {
+  align-self: flex-start;
+  background-color: darkcyan;
+}
+
+div:nth-child(3) {
+  order: 1;
+}
+
+div:nth-child(6) {
+  order: 2;
+}
+
+div:nth-child(8) {
+  order: 4;
+}
+
+div:nth-child(13) {
+  order: 3;
+}
+/*# sourceMappingURL=flexbox.css.map */
