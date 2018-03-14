@@ -53,10 +53,7 @@ p{
     color: black;
  }
  
- //hidden dropdown menu
- nav#dropdown ul {
-    //background-color: hsla(15, 50%, 50%, .5);
- // & is a shortcut for your nav#dropdown ul or any other css attribute
+ 
  & li {
     position: relative;
     display: inline-block;
@@ -69,27 +66,23 @@ p{
     }
     ul{
         display: none;
-        position: absolute; //makes it hover over rest of page
+        position: absolute; 
         background-color: hsl(0,0%,55%);
-        //white-space: nowrap; //makes it horizontal
         padding: 10px;
         width: 200px;
         li {
-            white-space: nowrap; //spreads it out in the ul
+            white-space: nowrap; 
             display: block;
         }
-        li:not(:last-child) { //"not" leaves out something- no underline under last item
- 
+        li:not(:last-child) { 
             border-bottom: 1px solid hsl(0,0%,45%);
         }
         a {
             display: block;
             padding: right;
-            transition: all 250ms; //add fading effect animation
-            //box-sizing: border-box; //keeps everything inside the box without expanding
+            transition: all 250ms;  
         }
         a:hover {
-            //left border hover effect
             color: white;
             border-left: 3px solid hsl(300, 50%, 50%);
             text-indent: 3px;
@@ -106,4 +99,3 @@ p{
     a:hover {
         background-color: hsl(0, 0%, 75%);        
     }
- }

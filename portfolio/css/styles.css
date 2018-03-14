@@ -1,0 +1,32 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+header {
+  text-align: center;
+  font-size: 35px;
+}
+
+h1 {
+  padding: 35;
+}
+
+ul {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.aboutme {
+  padding: 65%;
+}
+/*# sourceMappingURL=styles.css.map */
