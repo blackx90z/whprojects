@@ -10,6 +10,7 @@ header {
 
 h1 {
   padding: 35;
+  text-align: center;
 }
 
 ul {
@@ -18,15 +19,28 @@ ul {
   padding: 0;
 }
 
-h1 {
-  text-align: center;
-}
-
 h2 {
   text-align: center;
 }
 
-.aboutme {
+#aboutme {
   padding: 65%;
+  word-wrap: break-word;
+}
+
+.skills {
+  word-wrap: break-word;
+}
+
+button.contact {
+  size: 55px;
+  min-height: 70px;
+  max-height: 130px;
+}
+
+p {
+  margin: 50px;
+  word-spacing: normal;
+  background-color: cadetblue;
 }
 /*# sourceMappingURL=styles.css.map */
