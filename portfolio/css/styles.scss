@@ -14,7 +14,7 @@ h1{
 ul{
     margin: 0;
     border: 0;
-    padding:0;
+    padding:0; 
 }
 h2{
     text-align: center;
@@ -33,6 +33,7 @@ button.contact{
     size: 55px;
     min-height: 70px;
     max-height: 130px;
+    align-content: flex-end;
 }
  p {
         margin: 50px;

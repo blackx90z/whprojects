@@ -1,4 +1,4 @@
-html {
+html{
   background-color: black;
   color: white;
 }
@@ -36,6 +36,7 @@ button.contact {
   size: 55px;
   min-height: 70px;
   max-height: 130px;
+  align-content: flex-end;
 }
 
 p {
