@@ -113,18 +113,29 @@ document.getElementById('firstname').innerHTML += nameArray[i] + " ";
 // alerts, prompts, confirms
 // if / else if / else
 
- 
+ var spans = document.querySelectorAll('spans');
 function getChar(){
-    var char = prompt('pick your class, (Shadowstalker ,Mage ,Paladin)');
+    var char = prompt('pick your class, (Shadowstalker ,Mage ,Paladin, warrior)');
     var name = prompt ('what is your name?');
+    var user = prompt('choose a number from 1 to 10 this number will be what button you click on');
+    var userAnimal = prompt('pick any animal');
 console.log(char);
 console.log(name);
 }getChar();
 getGender();
+
 function getGender(){
     var gender = prompt('Are you Male or Female');
-if(gender == 'male'){
+if(gender == 'Male'){
     console.log('strong man'); 
-}else if(gender == 'female'){
+} if(gender == 'Female'){
     console.log('strong woman');
 }}
+if(userAnimal == 'chocobo'){
+    alert('sweet ride bro!');
+console.log('chocobo');
+}else (userAnimal != 'chocobo')
+alert('theres a place and time for everything');
+console.log('userAnimal');
+
+
