@@ -6,6 +6,8 @@ html{
 header{
     text-align: center;
     font-size: 35px;
+    padding-top: 100px;
+    background-image: image()
 }
 h1{
     padding: 35;
@@ -30,13 +32,10 @@ h2{
     word-wrap: break-word;
 }
 button.contact{
-    size: 55px;
-    min-height: 70px;
-    max-height: 130px;
     align-content: flex-end;
 }
  p {
         margin: 50px;
         word-spacing: normal;
-        background-color: cadetblue;
+        text-align: center;
     } 
