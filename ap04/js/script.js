@@ -145,6 +145,10 @@ console.log('not what i had in mind but ok');
 }
 getAnimal();
 
+function getuserAnswer(ans){
+    document.getElementById('answer') = getuserAnswer;
+}
+
 
 
 
