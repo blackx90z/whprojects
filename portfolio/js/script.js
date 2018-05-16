@@ -7,3 +7,4 @@ function revert(){
     document.body.style.color = "white";
     document.body.style.backgroundColor = "black";
 }
+

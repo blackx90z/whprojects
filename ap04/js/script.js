@@ -1,7 +1,7 @@
 function getChar(char){
     var char = prompt('pick your class, (Shadowstalker ,Mage ,Paladin, warrior)');
     var name = prompt ('what is your name?');
-    var user = prompt('choose a number from 1 to 10 this number will be what button you click on');
+    var user = prompt('choose a number from 1 - 6  this number will be what button you click on');
 console.log(char);
 console.log(name);
 document.getElementById("char").innerHTML = char;
@@ -24,7 +24,7 @@ if(userAnimal == 'chocobo'){
     console.log('sweet ride bro!!');
 }else if (userAnimal != 'chocobo')
 console.log('not what i had in mind but ok');
-document.getElementById("pet").innerHTML = animal;
+document.getElementById("pet").innerHTML = userAnimal;
 }
 getAnimal();
 

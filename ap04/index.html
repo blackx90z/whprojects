@@ -9,7 +9,7 @@
 </head>
 <body>
     
-<h1>Character/Story generator v1</h1>
+<h1>Choose Your Own Adventure Browser Game</h1>
 <button><a href="\">Wanna play again?</a></button>
 
 
@@ -19,54 +19,87 @@
         <th>strength</th>
         <th>intellegence</th>
         <th>Pet options</th>
+        <th>weapons</th>
     </tr>
     <tr>
         <td>Shadowstalker</td>
         <td>75</td>
         <td>100</td>
         <td>Chocobo</td>
+        <td>dual wielding daggers</td>
     </tr>
     <tr>
         <td>Mage</td>
         <td>50</td>
         <td>110</td>
         <td>llama</td>
+        <td>Magic staff</td>
     </tr>
     <tr>
         <td>Paladin</td>
         <td>100</td>
         <td>90</td>
         <td>dog</td>
+        <td>claymore</td>
     </tr>
     <tr>
         <td>Warrior</td>
         <td>150</td>
         <td>50</td>
         <td>horse</td>
+        <td>double-sided battle axe</td>
     </tr>
 </table>
-<h1>You choice is shown below.... GOOD lUCK!!! You'll need it! </h1>
+<h1>You choice is shown below.... GOOD LUCK!!! You'll need it! </h1>
 <p id="char">your character is a....</p>
 <p id="name">hello</p>
 <p id="gender">you are a.....</p>
 <p id="pet">you own a....</p>
 
 <button type="button" onclick="alert('you wake up in a weird room theres a door on the other side of the room do you open the door or stay in the room and pass back out on the floor?')">1</button>
-<form action="/action_page.php">Stay or leave?</form>
-<input type="text" name="stay or leave">
-<input type="submit" onclick="alert('stay-fall back to sleep only to wake up 6 hours later in a different room and a straight jacket 5 mins go by and the door opens standing there is a man in a white lab coat with a needle he admitisters the shot and you fall asleep only to never wake up again. leave- you decided to leave the room only to be stopped by 2 security guards they knock you out and take you to see the head staff member he smiles as he injects you with a needle you feel your self fading in and out of reality and end up dying')">
+
+<button type="button" onclick="alert( ' you decided to leave the room only to be stopped by 2 security guards they knock you out and take you to see the head staff member he smiles as he injects you with a needle you feel your self fading in and out of reality and end up dying')">leave</button>
+
+<button type="submit" onclick="alert('fall back to sleep only to wake up 6 hours later in a different room and a straight jacket 5 mins go by and the door opens standing there is a man in a white lab coat with a needle he admitisters the shot and you fall asleep only to never wake up again.')">stay</button>
 <br>
 
+
+<button type="button" onclick="alert('you come home from work to see that someone has attacked your pet. Feeling angry and anxious you grab your weapon and head for the door. you think is this worth the time to pursue or should i just not worry about it?')">2</button>
+
+<button type="submit" onclick="alert('you decided that trying to find the guy who kicked your pet is a complete waste of time so you decide to stay home... 20 mins goes by and you notice your pet is foaming out of its mouth you walk over to see what the issue is and you are brutally attacked by your pet with no one close by to hear what happened you bleed out from your wounds.... PSA Take care of your pet!')">stay</button>
+
+<button type="submit" onclick="alert('you and your pet set out to find your attacker after 2 hours of searching you notice your pet look towards the horizon in which case you see a shadow of a person heading towards you and starts to whine. you pull out your weapon and prepare for battle. you keep your distance as he swings his sword widly. your pet joins in the fight and protects you from the attack unforunately the pet takes the blow full force and dies. this makes you even more angry and you continue to fight and swing wildly missing every strike... your opponent dissappears for a brief second and reappears behind you and stabs you in the back')">leave</button>
 <br>
-<button type="button" onclick="alert('you come home from work to see that someone has kicked your pet. Feeling angry and anxious you grab your weapon and head for the door. you think is this worth the time to pursue or should i just not worry about it?')">2</button>
-<form action="/action_page.php">find the attacker or stay home?</form>
-<input type="text" name="stay or leave">
-<input type="submit" onclick="alert('stay - you decided that trying to find the guy who kicked your pet is a complete waste of time so you decide to stay home... 20 mins goes by and you notice your pet is foaming out of its mouth you walk over to see what the issue is and you are brutally attacked by your pet with no one close by to hear what happened you bleed out from your wounds.... PSA Take care of your pet! leave- you and your pet set out to find your attacker after 2 hours of searching you notice your pet look towards the horizon in which case you see a shadow of a person heading towards you and starts to whine. you pull out your weapon and prepare for battle. you keep your distance as he swings his sword widly. your pet joins in the fight and protects you from the attack unforunately the pet takes the blow full force and dies. this makes you even more angry and you continue to fight and swing wildly missing every strike... your opponent dissappears for a brief second and reappears behind you and stabs you in the back')"></input>
-<br>
-<br>
+
 <button type="button" onclick="alert('You wake up early and you recieve a phone call from your mentor... he tells you to meet him at his house because you have training to get done.... After two hours of continous training your mentor tells you to take a break. so you sit under a tree to cool off not only from the heat but from the sun. you shut your eyes for what seems like an hour when out of no where you hear a horrific scream. what do you do next go investigate the scream or go back to sleep underneath the tree?')">3</button>
-<form action="/action_page.php">find the source of the scream or fall back asleep?</form>
-<input type="text" name="follow scream or fall asleep?">
+
+<button type="submit" onclick="alert('you ignore the scream and fall back to sleep. An hour later you wake up and the suns going down. your mentor is laughing from inside the dojo and tells you that training is over for the day and theres a bad storm heading in this direction. you decide to head for home. you whistle for your pet jump on its back and take off at a high speed. you reach home within 10 mintues and it starts to rain... well it seems like rain but its sulfuric acid you try to get to the door fast enough but you do not reach it fast enough and both you and your pet dissappear')">ignore the scream</button>
+
+<button type="submit" onclick="alert('you decide to go investigate the scream. When you arrive to the scene where the scream originated from you see a small person with their back towards you so you walk over and tap the person on the shoulder. the person turns around and its your teacher with a fake wig and what looks like a stick. he turns to you and says this is not an ordinary stick watch and learn. He takes the stick points it at you when a ray of light comes from the top of the stick and next thing you know your turned into a penguin. your teacher commamnds you to start dancing and you refuse. your teacher is finally fed up with your insubordination so he makes you dance like the penguins in happy feet for the rest of your time alive')">investigate the scream</button>
+<br>
+
+<button type="button" onclick="alert('You leave your last training session of the day and head back home. half between your dojo and home you feel your cell vibrating in your pocket. you pull your phone out to see a text message from your significant other. the message reads hey can we reschedule our date i have some homework i have to get done. you think they are lying. what do you do? do nothing or go investigate?')">4</button>
+
+
+<button type="submit" onclick="alert('investigate - you find it odd that youre significant other canceled at such a short notice so you decide to head over to their house. after 20 minutes of using your pet to get there you open the door and find your counterpart tied up and captured by a 7 foot creature. this creature has sharp teeth as well as sharp claws, with the legs of a human and the top half dinosaur. You think you can take him so with the help of your pet you go to battle against the creature. the creature ignores you and bolts after your pet killing it within the first strike then turns towards you with a keen smile walking slowly towards you. By the creatures body language you can tell the creature is mocking you. At this point your so angry that the hilt of your weapon is covered by the blood of your hands from your grip. you swing your weapon only to have it knocked out of your hands by the mysterious creature. your out of options and your backed into a corner at the last second you slide between the creatures legs and grab your weapon. In one quick motion you jump spin 360 degrees in midair and your weapon connects to the back of the creatures head killing it instantly. after a brief moment of reprieve you calm down and collect your self mentally and untie your significant other. they tell you that they were followed home but a strange man and that man tied them up and summoned that creature to make sure they could not escape. you reassure them that it will not happen again and spend the rest of the night together and spend the rest of your time together happily.... YOU WIN!!!!! nice job!')">investigate</button>
+
+
+<button type="submit" onclick="alert('you put your cell back into your pocket and head for home. half way home you notice a bloody raptor fly past you and dissappears off into the horizon. you finally arrive home and something does not seem right. you walk slowly towards your door when you notice that the front door is completely gone; hinges and all gone as if it just vanished in thin air. you draw your weapon and proceed slowly to find this strange man sitting on your couch. before you can mutter out a single word the strange man snaps his fingers and behind you stands a 7 foot creature. the creatures is half human half raptor. the creature eats you and your pet then proceeds to spit out your weapon,your skull, and your pets skull. the last thing you heard before being devoured was the laughter of the strange man')">continue for home</button>
+
+<br>
+<button type="button" onclick="alert('you wake up in an unfarmiliar area but at the end of the corridor you see a door. a few mintues later you look down at your ankle and you see yourself shackled to the wall. On your right hand side you see a key. attached to that key is a letter with your name on it. you take the key and unlock the shackles and grab the note and put it in your pocket and you proceed towards the door. you turn the door handle and the doors locked. whats your next move? ')">5</button>
+
+<button type="submit" onclick="alert('so without checking the note you turn the door handle and with a single turn of the door handle and the door explodes. killing you instantly!')">try the door without reading the note</button>
+
+<button type="submit" onclick="alert('your standing in front of the door and you notice that the door handle does not look like your typical dor handle. so instead of further investigating the door handle you pull the note of your pocket and start to read it. The note that was placed next to you was written by your significant other and it says what ever you do dont turn the handle without placing the key in it first. so you follow instructions and the door opens. On the other side of the door is a long dark hallway without question you proceed down the long dark hallway. about half way through you start to hear voices and you get the feeling that someone is watching you. At this point your terrified so you start to run down the hallway at the end of the hallway you are greeted by a giant ogre. you pull out your weapon and begin to fight the ogre. your first attack misses, the second attack just goes right through him after 20 mintues of fighting your starting to realize that your attacks are pointless. The ogre is tired of wasting its time so it lifts up its massive foot and steps on you like a bug')">Read the note before trying the handle</button>
+<br>
+<button type="button" onclick="alert('your work day has finally come to an end and on your way home you find someone in an alley crying. what do you do? talk to the person or ignore them and head for home')">6</button>
+
+<buton type="submit" onclick="alert('you decided to help the person crying in the alley. you walk over and ask if everything is ok the second your hand goes to reach out to grab the person. The person turns around prison shanks you not once not twice but 15 times steals your wallet and runs away.... And you thought being a good person was going to help you.... HAHAHAHAHA Nope! your dead')">help the stranger</buton>
+
+<button type="submit" onclick="alert('you make the executive decision to ignore the person in the back alley and head for home. after 20 mintues of riding home on your pet you head upstairs and jump in the shower. the person in the back alley tailed you home because she saw you whistle for your pet. she has seen your pet before in your back yard. you finally get out of the shower and head into your living room and turn on the tv when in the reflection you see someone this time standing right behind you. you turn around real quick and notice that person from the alley is in your house standing behind you. turns out that was not a person but a witch she says something to you but you cant understand what she is saying. she looks at you with a crazy look in her eye and than smile snaps her fingers and within a blink of an eye you and your pet disintegrate')">ignore them and head for home</button>
+
+
     <script src="js/script.js"></script>
 </body>
 </html>

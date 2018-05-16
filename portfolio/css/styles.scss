@@ -1,7 +1,7 @@
 
 html{
-    background-color:black; 
-    color:white;
+    background-color:aqua; 
+    color:black;
 }
 header{
     text-align: center;
@@ -38,4 +38,11 @@ button.contact{
         margin: 50px;
         word-spacing: normal;
         text-align: center;
-    } 
+    }
+
+    h4{
+        word-wrap: break-word;
+        padding: 65%;
+        margin: 50px;
+
+    }

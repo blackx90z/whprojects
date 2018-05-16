@@ -1,6 +1,6 @@
 html {
-  background-color: black;
-  color: white;
+  background-color: aqua;
+  color: black;
 }
 
 header {
@@ -42,5 +42,11 @@ p {
   margin: 50px;
   word-spacing: normal;
   text-align: center;
+}
+
+h4 {
+  word-wrap: break-word;
+  padding: 65%;
+  margin: 50px;
 }
 /*# sourceMappingURL=styles.css.map */
